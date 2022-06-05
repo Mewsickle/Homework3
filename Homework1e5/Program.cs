@@ -7,7 +7,7 @@ namespace Homework1e5
         static void Main(string[] args)
         {
             Console.WriteLine("Здравствуйте, Юзер!");
-            Console.WriteLine("")
+            
         }
     }
 }
