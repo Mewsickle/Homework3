@@ -1,4 +1,5 @@
 ﻿using System;
+using GBStudyLib;
 
 /*5.
 а) Написать программу, которая выводит на экран ваше имя, фамилию и город проживания.
@@ -11,10 +12,24 @@ namespace Homework1e5
 {
     internal class Program
     {
+
+        /*
+        static void Print(string msg, int x, int y)
+        {
+            Console.SetCursorPosition(x, y);
+            Console.WriteLine(msg);
+            
+
+        }
+        */
         static void Main(string[] args)
         {
-            Console.WriteLine("Здравствуйте, Юзер!");
-            
+            Console.SetCursorPosition(50, 15);
+            Console.WriteLine("Алексей, Ким, Москва.");
+            new GBStudyLib.Print("Алексей, Ким, Москва.", 50, 18);
+            Console.ReadLine(); 
+
         }
+       
     }
 }
